@@ -113,7 +113,8 @@ These plots provide the information about how clean data looks like from distrit
 
 ![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/LinearR-%20MoreFeatures%20Plot3.png)
 
-##Evalution
+## Evalution
+
 Based on model evaluation, the linear regression model with features like 'year', 'odometer', 'condition', 'cylinders' shown good model performance and lower MSE
 
 ### MSE values matrix for various models
@@ -125,3 +126,40 @@ Based on model evaluation, the linear regression model with features like 'year'
 | Lasso Linear Regression    | 66130206.603414    | 65801827.082749404 |
 | LR with OHE, OEC           | 48880292.09100207  | 48335495.11685542  |
 ------------------------------------------------------------------------
+
+## Deployment
+
+Dear Mr. Kurt
+Based on extensive data analysis of user car data, machine learning modeling, predictions, we are able to infer that the following 4 features are very important for customers of used cars. so you may adjust your car inventory accordingly and let us know if you have any other questions.
+
+**Below are the important features valued by customers:**
+
+1. Odometer reading
+
+2. Year of Car
+
+3. Condition of the car
+
+4. Number of Cylinders
+
+**Key notes to consider:**
+
+1. The **'odometer'** should be as low as possible
+
+2. The **'year'** should be as latest as possible
+
+3. The **'condition'** should be in excellent, good or like-new for better value
+
+4. The **'cylinders'** should be 8, 6 or 4 as valued by customers
+
+
+## Response from Kurt
+
+### Well Done team! Thanks for the insights and appreciate the help. We will adjust our car inventory as recommended!
+
+### Thank you!
+
+![Alt text](
+
+
+
