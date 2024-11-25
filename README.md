@@ -82,21 +82,30 @@ These plots provide the information about how clean data looks like from distrit
 ![Alt tezt](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/Model1%20LinearRegression%20Plot.png)
 
 **2. Cross validation of numerical features using SequentialFeatureSelector and CV**
+    
     2.1. Based on SFS feature selection, it seems 'year' feature is good enough for the linear model.
+    
     2.2. MSE improved slightly when compared to linear regression with 2 features (Year, Odometer)
 
 **3. Ridge Regression Model - Numerical features (Year, Odometer) and Alpha values (1-100)**
+    
     3.1. Model complexity is getting reduced as we increase the alpha parameter
 
 **4. Ridge Regression Model - Numerical features (Year, Odometer), Alpha values (1-100) and GRIDSearchCV**
+    
     4.1. Ridge value model = 1.0 seems to be better based GridSearchCV
 
-**5. Lasso Regression Model - Numerical features (Year, Odometer) and Standardizarion using Scaler
+**5. Lasso Regression Model - Numerical features (Year, Odometer) and Standardizarion using Scaler**
+    
     5.1. MSE values are slightly better compared to Ridge Regression model
 
-**6. Linear Regression Model with OneHotEncoder(cylinders), OrdinalCoder(condition), Polynominal features(2)
+**6. Linear Regression Model with OneHotEncoder(cylinders), OrdinalCoder(condition), Polynominal features(2)**
+    
     6.1. MSE values are the best compared to all other models above
-    6.2. Plotted - Scatter plots of model performance
+    
+    6.2. Plotted - Scatter plots of model performance (plot 1, plot2, plot3)
+    
     6.3. Clearly this model perform much better than all other models above.
+
 
 
