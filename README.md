@@ -3,9 +3,9 @@
 ## Overview
 In this application, we will explore a dataset from Kaggle. The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing. My goal is to understand what factors make a car more or less expensive. As a result of my analysis, I would provide clear recommendations to my client -- a used car dealership -- as to what consumers value in a used car.
 ## Business Understanding
-The question is **"what drives the price of a car?"**. Our business interest is to identify the attributes of a used car that is valued by the consumers.
+The question is **"what drives the price of a car?"**. Our business interest is to identify the attributes of a used car that are valued by the consumers.
 
-The used car buyer is aware that the car he/she plans to buy is not a brand new car but they typically to look for few factors either numerical features like milege or model year etc. and categorical features like color, make, condition etc so as to assess the value and decides how much price to pay for that car.
+The used car buyer is aware that the car he/she plans to buy is not a brand new car but they typically to look for few factors like numerical features like **milege or model year** etc. and categorical features like **color, make, condition** etc so as to assess the value and decides how much price to pay for that car.
 
 So as a Data Scientist, my job is to identify such features based on exisitng data and identify a model that can predict the price based on such factors thus the user-car dealer will better leverage this predictive data to align their inventory accordingly for better business value.
 ## Data Understanding
