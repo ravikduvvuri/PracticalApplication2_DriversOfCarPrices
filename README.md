@@ -9,14 +9,31 @@ The used car buyer is aware that the car he/she plans to buy is not a brand new 
 
 So as a Data Scientist, my job is to identify such features based on exisitng data and identify a model that can predict the price based on such factors thus the user-car dealer will better leverage this predictive data to align their inventory accordingly for better business value.
 ## Data Understanding
-To understand the data, Did the following steps:
-  ### Initial steps
-  1. Read 'vehicles.csv' into a pandas dataframe
-  2. Displayed sample data using df.sample(5) to see what features are there in the dataset
-  3. Gained some domain knowledge and checked data and possible relationships among them
-  ### Next Steps
+To understand the data, Did the following:
+  ### Initial steps done
+  1. Imported relevant libraries (Updated this section as needed in future)
+  2. Read 'vehicles.csv' into a pandas dataframe
+  3. Displayed sample data using df.sample(5) to see what features are there in the dataset
+  4. Gained some domain knowledge and checked data and possible relationships among them
+  ### Next Steps done
   5. Using df.info() found the total features, size of the dataset and data types of features
   6. Searched for duplicate data
-  7. Identified 'not relevant data (ex. 'Id', 'VIN' etc.)
-  8. Identified 'missing data' and plotted data
+  7. Identified 'not relevant data' (ex. 'Id', 'VIN' etc.)
+  8. Identified 'missing data' and plotted it
+    
+  ![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/MissingData.png)
 
+## Data Preparation
+### Pre-processing of data / Data Cleanup
+  Based on data analyis, did the following:
+
+  1. Converted Features like 'year', 'odometer' into integers
+  2. Dropped 'Id', 'VIN' as they are not useful for price prediction.
+  3. Dropped 'Size' feature since 70% of data is missing, so it is not useful to fill-in with any existing data.
+  4. Using mode(), Filled-in missing values in other categorical features (condition,cylinders,drive,type,paint_color)
+  5. Removed null value rows since the null data is less than 5 percent for all other features (namely 'year', 'manufacturer','model','fuel','odometer','title_status','transmission' etc.)
+  6. Removed zero values of 'odometer', 'price'
+### Outliers removal
+  7. Removed outliers data using Z_score
+  8. Adjusted data based on 25%, 50% and 75% data ranges for better representation
+  9. Checked price distribution after outliers removal
