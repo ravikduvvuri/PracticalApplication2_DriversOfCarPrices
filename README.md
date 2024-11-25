@@ -131,8 +131,8 @@ Based on model evaluation, the linear regression model with features like 'year'
 | Model Name                 | Train MSE          | Test MSE           |
 |----------------------------|--------------------|--------------------|
 | Simple Linear Regresssion  | 0.6922398137428262 | 0.6880111324033108 |
-| Ridge Liner Regression     | 66715854.17542116  | 66308226.0611658   |
-| Lasso Linear Regression    | 66130206.603414    | 65801827.082749404 |
+| Ridge Regression           | 66715854.17542116  | 66308226.0611658   |
+| Lasso Regression           | 66130206.603414    | 65801827.082749404 |
 | LR with OHE, OEC           | 48880292.09100207  | 48335495.11685542  |
 ------------------------------------------------------------------------
 
