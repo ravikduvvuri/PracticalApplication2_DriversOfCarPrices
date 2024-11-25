@@ -24,7 +24,7 @@ To understand the data, Did the following:
   ![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/MissingData.png)
 
 ## Data Preparation
-### Pre-processing of data / Data Cleanup
+### Pre-processing of data / Data cleanup
   Based on data analyis, did the following:
 
   1. Converted Features like 'year', 'odometer' into integers
@@ -37,3 +37,12 @@ To understand the data, Did the following:
   7. Removed outliers data using Z_score
   8. Adjusted data based on 25%, 50% and 75% data ranges for better representation
   9. Checked price distribution after outliers removal
+  10. Clean Dataframes ready:  **df, df_numeric**
+     
+![Alt test](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/PriceDistribution.png)
+
+### Plots of Clean data
+These plots provide the information about how clean data looks like from distrition perspective
+1. Pair plot - Numeric data
+2. Box plots - Numeric data
+3. Bar Plots - Categorical data
