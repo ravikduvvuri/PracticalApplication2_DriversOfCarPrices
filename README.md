@@ -25,7 +25,7 @@ To understand the data, Did the following:
 
 ## Data Preparation
 ### Pre-processing of data / Data cleanup
-  Based on data analyis, did the following:
+  Based on data analyis, I did the following:
 
   1. Converted Features like 'year', 'odometer' into integers
   2. Dropped 'Id', 'VIN' as they are not useful for price prediction.
