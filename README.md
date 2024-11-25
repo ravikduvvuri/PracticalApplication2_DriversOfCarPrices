@@ -139,6 +139,7 @@ Based on model evaluation, the linear regression model with features like 'year'
 ## Deployment
 
 Dear Mr. Kurt
+
 Based on extensive data analysis of user car data, machine learning modeling, predictions, we are able to infer that the following 4 features are very important for customers of used cars. so you may adjust your car inventory accordingly and let us know if you have any other questions.
 
 **Below are the important features valued by customers:**
