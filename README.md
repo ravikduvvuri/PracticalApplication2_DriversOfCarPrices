@@ -15,7 +15,7 @@ To understand the data, Did the following:
   2. Read 'vehicles.csv' into a pandas dataframe
   3. Displayed sample data using df.sample(5) to see what features are there in the dataset
   4. Gained some domain knowledge and checked data and possible relationships among them
-  ### Next Steps done
+  ### Next steps done
   5. Using df.info() found the total features, size of the dataset and data types of features
   6. Searched for duplicate data
   7. Identified 'not relevant data' (ex. 'Id', 'VIN' etc.)
@@ -46,3 +46,33 @@ These plots provide the information about how clean data looks like from distrit
 1. Pair plot - Numeric data
 2. Box plots - Numeric data
 3. Bar Plots - Categorical data
+
+![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/PairPlot.png)
+
+![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/BoxPlot%20-%20Year.png)
+
+![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/BoxPlot%20-%20Price.png)
+
+![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/BoxPlot%20-%20Odometer.png)
+
+![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/Bar%20plot%20%20-%20Transmission.png)
+
+![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/Bar%20plot%20%20-%20Title.png)
+
+![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/Bar%20plot%20%20-%20Fuel.png)
+
+![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/Bar%20plot%20%20-%20Cylinders.png)
+
+![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/Bar%20plot%20%20-%20Condition.png)
+
+## Modeling
+Modeling basics:
+1. Train Test split df_numeric data
+2. Initialize StandardScaler
+3. scale Train and Test numerical data
+### Models
+1. Model 1 - Linear Regression with 2 features (Input: year, odometer & output: Price)
+   1.1. Get MSEs for train, test data
+   1.2. Scatter plot of predicted test values
+   1.3. Predict my own car value (An experiment to check the model I created: Answer is pretty close to my car value. yoo-hoo!)
+
