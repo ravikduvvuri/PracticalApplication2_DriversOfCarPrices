@@ -114,7 +114,7 @@ These plots provide the information about how clean data looks like from distrib
     
     6.2. Plotted - Scatter plots of model performance (plot 1, plot2, plot3)
     
-    6.3. Clearly this model perform much better than all other models above.
+    6.3. Clearly this model perform is much better than all other models above.
 
 ![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/LinearR-%20MoreFeatures%20Plot1.png)
 
