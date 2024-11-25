@@ -67,16 +67,36 @@ These plots provide the information about how clean data looks like from distrit
 
 ## Modeling
 **Modeling basics:**
-1. Train Test split df_numeric data
-2. Initialize StandardScaler
-3. scale Train and Test numerical data
+1. Split df_numeric data into Train/Test data
+2. Initialized StandardScaler
+3. scaled Train/Test numerical data
 ### Models
-**1. Model 1 - Linear Regression with 2 features (Input: year, odometer & output: Price)**
+**1. Linear Regression with 2 features (Input: year, odometer & output: Price)**
 
-1.1. Get MSEs for train, test data
+    1.1. Got MSEs for train, test data
 
-1.2. Scatter plot of predicted test values
+    1.2. Plotted - Scatter plot of predicted test values
 
-1.3. Predict my own car value (An experiment to check the model I created: Answer is pretty close to my car value. yoo-hoo!)
+    1.3. predicted - My own car value (An experiment to check the model I created: Answer is pretty close to my car value. yoo-hoo!)
+
+![Alt tezt](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/Model1%20LinearRegression%20Plot.png)
+
+**2. Cross validation of numerical features using SequentialFeatureSelector and CV**
+    2.1. Based on SFS feature selection, it seems 'year' feature is good enough for the linear model.
+    2.2. MSE improved slightly when compared to linear regression with 2 features (Year, Odometer)
+
+**3. Ridge Regression Model - Numerical features (Year, Odometer) and Alpha values (1-100)**
+    3.1. Model complexity is getting reduced as we increase the alpha parameter
+
+**4. Ridge Regression Model - Numerical features (Year, Odometer), Alpha values (1-100) and GRIDSearchCV**
+    4.1. Ridge value model = 1.0 seems to be better based GridSearchCV
+
+**5. Lasso Regression Model - Numerical features (Year, Odometer) and Standardizarion using Scaler
+    5.1. MSE values are slightly better compared to Ridge Regression model
+
+**6. Linear Regression Model with OneHotEncoder(cylinders), OrdinalCoder(condition), Polynominal features(2)
+    6.1. MSE values are the best compared to all other models above
+    6.2. Plotted - Scatter plots of model performance
+    6.3. Clearly this model perform much better than all other models above.
 
 
