@@ -159,7 +159,7 @@ Based on extensive data analysis of user car data, machine learning modeling, pr
 
 ### Thank you!
 
-![Alt text](
+![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/kurt.jpeg)
 
 
 
