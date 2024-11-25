@@ -51,7 +51,7 @@ To understand the data, I did the following:
 ![Alt test](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/PriceDistribution.png)
 
 ### Plots of Clean data
-These plots provide the information about how clean data looks like from distrition perspective
+These plots provide the information about how clean data looks like from distribution perspective
 1. Pair plot - Numeric data
 2. Box plots - Numeric data
 3. Bar Plots - Categorical data
