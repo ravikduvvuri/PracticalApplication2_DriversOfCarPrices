@@ -9,7 +9,7 @@ The used car buyer is aware that the car he/she plans to buy is not a brand new 
 
 As a Data Scientist, my job is to identify such features based on exisitng data and identify a model that can predict the price and help the used-car dealer to adjust and align their inventory for better business outcomes.
 ## Data Understanding
-To understand the data, Did the following:
+To understand the data, I did the following:
   ### Initial steps done
   1. Imported relevant libraries (Updated this section as needed in future)
   2. Read 'vehicles.csv' into a pandas dataframe
