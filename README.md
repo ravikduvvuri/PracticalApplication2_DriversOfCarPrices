@@ -66,13 +66,17 @@ These plots provide the information about how clean data looks like from distrit
 ![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/Bar%20plot%20%20-%20Condition.png)
 
 ## Modeling
-Modeling basics:
+**Modeling basics:**
 1. Train Test split df_numeric data
 2. Initialize StandardScaler
 3. scale Train and Test numerical data
 ### Models
-1. Model 1 - Linear Regression with 2 features (Input: year, odometer & output: Price)
-   1.1. Get MSEs for train, test data
-   1.2. Scatter plot of predicted test values
-   1.3. Predict my own car value (An experiment to check the model I created: Answer is pretty close to my car value. yoo-hoo!)
+**1. Model 1 - Linear Regression with 2 features (Input: year, odometer & output: Price)**
+
+1.1. Get MSEs for train, test data
+
+1.2. Scatter plot of predicted test values
+
+1.3. Predict my own car value (An experiment to check the model I created: Answer is pretty close to my car value. yoo-hoo!)
+
 
