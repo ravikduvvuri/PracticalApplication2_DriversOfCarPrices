@@ -122,7 +122,7 @@ These plots provide the information about how clean data looks like from distrib
 
 ![Alt text](https://github.com/ravikduvvuri/PracticalApplication2_DriversOfCarPrices/blob/main/LinearR-%20MoreFeatures%20Plot3.png)
 
-## Evalution
+## Evaluation
 
 Based on model evaluation, the linear regression model with features like 'year', 'odometer', 'condition', 'cylinders' shown good model performance and lower MSE
 
